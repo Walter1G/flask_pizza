@@ -13,7 +13,7 @@ def create_app(config=config_dict['dev']):
     
     
 
-    api.add_namespace(order_namespace, path='/')
+    api.add_namespace(order_namespace )
     api.add_namespace(auth_namespace, path="/auth")
     return app
 
